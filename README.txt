@@ -1,3 +1,5 @@
+This script will list all CVEs for each resource with an active Attack Path Policy.
+
 save all 3 files to a new folder for ease of use
 
 config.py                       ->      set configuration variables
