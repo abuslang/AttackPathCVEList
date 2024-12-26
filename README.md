@@ -49,12 +49,12 @@ The script generates:
 ## Logic
 
 Fetches attack path alerts using initial parameters
-For each alert:
+* For each alert:
 
-Gets detailed alert information
-Extracts CVE data from alert metadata
-Collects resource information if CVEs are present
-Maintains lists of resources with/without CVEs
+* Gets detailed alert information
+* Extracts CVE data from alert metadata
+* Collects resource information if CVEs are present
+* Maintains lists of resources with/without CVEs
 
 ## Common Issues
 
