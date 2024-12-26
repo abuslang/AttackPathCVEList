@@ -16,19 +16,15 @@ git clone https://github.com/yourusername/prisma-ap-cve.git
 cd prisma-ap-cve
 ```
 
-2. Install required package:
-```bash
-pip install requests
-```
 
-3. Update the `config.py` file with your credentials:
+2. Update the `config.py` file with your credentials:
 ```python
 url = "api2.prismacloud.io"  # Your Prisma Cloud API URL
 api_key = "your_access_key_here"
 api_secret = "your_secret_key_here"
 ```
 
-4. Make the script executable and run:
+3. Make the script executable and run:
 ```bash
 chmod +x AttackPathCVE.py
 ./AttackPathCVE.py         # Default 12 months of data
