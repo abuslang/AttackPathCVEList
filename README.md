@@ -45,6 +45,17 @@ The script generates:
    * List of resources without CVEs
    * Total count statistics
 
+
+## Logic
+
+Fetches attack path alerts using initial parameters
+For each alert:
+
+Gets detailed alert information
+Extracts CVE data from alert metadata
+Collects resource information if CVEs are present
+Maintains lists of resources with/without CVEs
+
 ## Common Issues
 
 1. **Authentication Errors**: Verify your API credentials in `config.py`
